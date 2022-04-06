@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+html {
+    width: 100vw;
+    height: 100vh;    
+}
+body {
+    background-color: var(--body-bg-color);
+}
+
+p {
+    margin: 40px;
+    padding: 0%;
+    color: var(--purple);
+    text-align: center;
+}
+.box {
+   border: 2px solid var(--purple);
+   margin-bottom: 20px;
+   padding: 15px;
+   font-size: 18px;
+   text-align: center;
+   width: 300px;
+   list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--purple);
+}
+.list {
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 30px;
+}
+.image {
+    background: url(./michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    
+}
+.borda {
+    width: 215px;
+    height: 215px;
+    border: 3px solid var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-top: 80px;    
+}
